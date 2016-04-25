@@ -5,7 +5,23 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+
+  <h1>用户管理系统</h1>
+    <p>欢迎登录到<%= appName %></p>
+
+
+  <p>
+
+      <form method="get" action="/login">
+
+       用户名: <input  type="text" value="" name = "uname"/>   <br/>
+        密码:  <input  type="text" value="" name = "upwd"/> <br/>
+        <input type="submit" value="登录"/>
+
+    </form>
+
+  </p>
+
+
   </body>
 </html>
